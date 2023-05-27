@@ -20,7 +20,6 @@
 
 title: le brian howell
 email: bhowell@berkeley.edu
-email: lebrianhowell@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Brian Howell is currently a PhD candidate in the Multiphysics Simulation and 
   Optimization Laboratory at UC Berkeley. 
@@ -28,6 +27,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "bmhowell.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: __bhowell__
 github_username:  bmhowell
+linkedin: "https://www.linkedin.com/in/howellbrian/"
+
 
 # Build settings
 theme: minima
