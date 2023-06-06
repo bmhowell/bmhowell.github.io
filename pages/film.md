@@ -59,7 +59,7 @@ in my life.
 43. The World of Tomorrow - Don Hertzfeldt
 44. Gladiator - Ridley Scott
 45. Mad Max: Fury Road - George Miller
-46. Ingloreous Basterds - Quentin Tarantino
+46. Inglourious Basterds - Quentin Tarantino
 47. Thin Red Line - Terrence Malick
 48. Indiana Jones and the Raiders of the Lost Ark - Steven Spielberg
 49. Jurassic Park - Steven Spielberg
