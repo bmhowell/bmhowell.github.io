@@ -11,12 +11,14 @@ layout: default
 </style>
 
 <h1> Personal Library </h1>
+Here a list of books that have had a great influence on the way I see the world at different stages in my life, 
+enough to procure a hard copy, annotate, and re-read over and over.
 
 <h2>Most influential:</h2>
 
 
 1. Fooled by Randomness - Nassim Taleb
-2. Antfragile - Nassim Taleb
+2. Antifragile - Nassim Taleb
 3. The Dictator's Handbook - Bruce Bueno de Mesquita
 4. The Changing World Order - Ray Dalio
 5. Zero to One - Peter Thiel
