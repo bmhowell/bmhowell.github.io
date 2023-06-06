@@ -1,0 +1,73 @@
+---
+layout: default
+---
+
+
+<style>
+    body {
+      background-color: black;
+      color: white;
+    }
+</style>
+
+<h1> Personal Library </h1>
+
+<h2>Most influential:</h2>
+
+<!-- <div class="content">
+    {{ content | markdownify }}
+</div> -->
+
+1. Fooled by Randomness - Nassim Taleb
+2. Antfragile - Nassim Taleb
+3. The Dictator's Handbook - Bruce Bueno de Mesquita
+4. The Changing World Order - Ray Dalio
+5. Zero to One - Peter Thiel
+6. A Random Walk Down Wall Street - Burton Malkiel
+7. Papyrus: The Invention of Books in the Ancient World - Irene Vallejo
+8. What I Talk About When I Talk About Running - Haruki Murakami
+9. The Art of Learning - Josh Waitzkin
+10. Homodeus - Yuval Noah Harari
+12. The Black Swan - Nassim Taleb
+13. The Selfish Gene - Richard Dawkins
+15. Skin in the Game - Nassim Taleb
+16. The Best Writing on Mathematics - Mircea Pitici
+17. Einstein - Walter Isaacson
+18. Leonardo Da Vinci - Walter Isaacson
+
+<h2>Textbook faves:</h2>
+0. Convex Optimization - Stephen Boyd
+1. Algorithms for Optimization - Mykel Kochenderfer
+2. Decision Making Under Uncertainty - Mykel Kochenderfer
+4. Gaussian Processes for Machine Learning - Carl Edward Rasmussen
+5. The Feynman Lectures on Physics - Richard Feynman
+7. Optimizaiton Models - Giuseppe C. Calafiore and Laurent El Ghaoui
+8. Reinforcement Learning - Richard S. Sutton and Andrew G. Barton
+9. Finite Difference Methods for Ordinary and Partial Differential Equations - Randall J. LeVeque
+10. A Practical Guide to Quantitative Finance Interviews - Xinfeng Zhou
+11. Elements of Chemical Reaction Engineering - H. Scott Fogler
+12. Fluid Mechanics - Cengel and Cimbala
+13. Gardner's Art Through the Ages - Fred S. Kleiner
+14. Physical Chemistry for Engineers - James Patterson
+15. Continuum Mechanics: Concise Theory and Problems - P. Chadwick
+16. Optimal Control Theory - Donald E. Kirk
+17. Robust Optimization - Aharon Ben-Tal and Laurent El Ghaoui
+
+
+<h2>Fiction faves:</h2>
+0. The Girl with the Dragon Tattoo - Who Played with Fire - Who Kicked the Hornet's Nest - Stieg Larsson
+1. Kafka on the Shore - Haruki Murakami
+2. Jurassic Park - Michael Crichton
+3. The Fellowship of the Ring - The Two Towers - The Return of the King - J.R.R. Tolkien
+4. Killing Commendatore - Haruki Murakami
+5. The Unbearable Lightness of Being - Milan Kundera
+6. The Wind-Up Bird Chronicle - Haruki Murakami
+7. The Hobbit - J.R.R. Tolkien
+8. The Martian - Andy Weir
+9. Th
+
+
+<h2>Priority reads:</h2>
+0. Godel, Escher, Bach - Douglas Hofstadter
+1. 1Q84 - Haruki Murakami
+2. 
