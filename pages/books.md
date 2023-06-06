@@ -14,9 +14,6 @@ layout: default
 
 <h2>Most influential:</h2>
 
-<!-- <div class="content">
-    {{ content | markdownify }}
-</div> -->
 
 1. Fooled by Randomness - Nassim Taleb
 2. Antfragile - Nassim Taleb
