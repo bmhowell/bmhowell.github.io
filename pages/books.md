@@ -34,6 +34,8 @@ layout: default
 16. The Best Writing on Mathematics - Mircea Pitici
 17. Einstein - Walter Isaacson
 18. Leonardo Da Vinci - Walter Isaacson
+19. Enlightenment Now - Steven Pinker
+20. Origin Story - David Christian
 
 <h2>Textbook faves:</h2>
 0. Convex Optimization - Stephen Boyd
@@ -59,15 +61,17 @@ layout: default
 1. Kafka on the Shore - Haruki Murakami
 2. Jurassic Park - Michael Crichton
 3. The Fellowship of the Ring - The Two Towers - The Return of the King - J.R.R. Tolkien
-4. Killing Commendatore - Haruki Murakami
-5. The Unbearable Lightness of Being - Milan Kundera
-6. The Wind-Up Bird Chronicle - Haruki Murakami
-7. The Hobbit - J.R.R. Tolkien
-8. The Martian - Andy Weir
-9. Th
+4. The Three-Body Problem - Cixin Liu
+5. Killing Commendatore - Haruki Murakami
+6. The Unbearable Lightness of Being - Milan Kundera
+7. The Wind-Up Bird Chronicle - Haruki Murakami
+8. The Hobbit - J.R.R. Tolkien
+9. The Martian - Andy Weir
+
 
 
 <h2>Priority reads:</h2>
 0. Godel, Escher, Bach - Douglas Hofstadter
 1. 1Q84 - Haruki Murakami
-2. 
+2. Pachinko - Min Jin Lee
+3. Outlive - Peter Attia
