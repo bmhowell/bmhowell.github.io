@@ -17,7 +17,7 @@ in my life.
 1. Eyes Wide Shut - Stanley Kubrick
 2. The Handmaiden - Park Chan-wook
 3. Spirted Away - Hayao Miyazaki
-4. Gatacca - Andrew Niccol
+4. Gattaca - Andrew Niccol
 5. Ghost in the Shell - Mamoru Oshii
 6. The Fellowship of the Ring - The Two Towers - The Return of the King - Peter Jackson
 7. Blade Runner 2049 - Denis Villeneuve
