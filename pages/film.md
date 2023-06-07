@@ -16,7 +16,7 @@ in my life.
 
 1. Eyes Wide Shut - Stanley Kubrick
 2. The Handmaiden - Park Chan-wook
-3. Spirted Away - Hayao Miyazaki
+3. Spirited Away - Hayao Miyazaki
 4. Gattaca - Andrew Niccol
 5. Ghost in the Shell - Mamoru Oshii
 6. The Fellowship of the Ring - The Two Towers - The Return of the King - Peter Jackson
@@ -52,7 +52,7 @@ in my life.
 36. In the Mood for Love - Wong Kar-wai
 37. Annihilation - Alex Garland
 38. Leon: The Professional - Luc Besson
-39. Appocalypse Now - Francis Ford Coppola
+39. Apocalypse Now - Francis Ford Coppola
 40. Silence - Martin Scorsese
 41. Oldboy - Park Chan-wook
 42. 2001: A Space Odyssey - Stanley Kubrick
