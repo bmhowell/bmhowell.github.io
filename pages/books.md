@@ -18,23 +18,24 @@ enough to procure a hard copy, annotate, and re-read over and over.
 
 
 1. Fooled by Randomness - Nassim Taleb
-2. Antifragile - Nassim Taleb
+2. The Worldly Philosophers - Robert Heilbroner
 3. The Dictator's Handbook - Bruce Bueno de Mesquita
-4. The Changing World Order - Ray Dalio
-5. Zero to One - Peter Thiel
-6. A Random Walk Down Wall Street - Burton Malkiel
-7. Papyrus: The Invention of Books in the Ancient World - Irene Vallejo
-8. What I Talk About When I Talk About Running - Haruki Murakami
-9. The Art of Learning - Josh Waitzkin
-10. Homodeus - Yuval Noah Harari
+4. Antifragile - Nassim Taleb
+5. The Changing World Order - Ray Dalio
+6. Zero to One - Peter Thiel
+7. A Random Walk Down Wall Street - Burton Malkiel
+8. Papyrus: The Invention of Books in the Ancient World - Irene Vallejo
+9. What I Talk About When I Talk About Running - Haruki Murakami
+10. The Art of Learning - Josh Waitzkin
+11. Homodeus - Yuval Noah Harari
 12. The Black Swan - Nassim Taleb
 13. The Selfish Gene - Richard Dawkins
-15. Skin in the Game - Nassim Taleb
-16. The Best Writing on Mathematics - Mircea Pitici
-17. Einstein - Walter Isaacson
-18. Leonardo Da Vinci - Walter Isaacson
-19. Enlightenment Now - Steven Pinker
-20. Origin Story - David Christian
+14. Skin in the Game - Nassim Taleb
+15. The Best Writing on Mathematics - Mircea Pitici
+16. Einstein - Walter Isaacson
+17. Leonardo Da Vinci - Walter Isaacson
+18. Enlightenment Now - Steven Pinker
+19. Origin Story - David Christian
 
 <h2>Textbook faves:</h2>
 0. Convex Optimization - Stephen Boyd
