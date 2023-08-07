@@ -2,69 +2,84 @@
 layout: default
 ---
 
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>brian howell</title>
+    <!-- Add the Google Analytics tracking code below this line -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GN0DB3NLLT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-<style>
-    body {
-      background-color: black;
-      color: white;
-    }
-</style>
+      gtag('config', 'G-GN0DB3NLLT');
+    </script>
+    <!-- End of Google Analytics tracking code -->
+    <style>
+      body {
+        background-color: black;
+        color: white;
+      }
+  </style>
+</head>
+<body>
+
 I am a cinema (not quite film) enthusiast. Here are some movies that have had a great influence at different stages 
 in my life.  
 
 <h1> Most influential: </h1>
-
-1. Eyes Wide Shut - Stanley Kubrick
-2. The Handmaiden - Park Chan-wook
-3. Spirited Away - Hayao Miyazaki
-4. Gattaca - Andrew Niccol
-5. Ghost in the Shell - Mamoru Oshii
-6. The Fellowship of the Ring - The Two Towers - The Return of the King - Peter Jackson
-7. Blade Runner 2049 - Denis Villeneuve
-8. Dune - Denis Villeneuve
-9. Tar - Todd Field
-10. Persona - Ingmar Bergman
-11. Pi - Darren Aronofsky
-12. A Portrait of a Lady on Fire - Céline Sciamma
-13. Drive My Car - Ryûsuke Hamaguchi
-14. Mullholland Drive - David Lynch
-15. Paprika - Satoshi Kon
-16. The Color of Pomegranates - Sergei Parajanov
-17. Eraserhead - David Lynch
-18. Ex Machina - Alex Garland
-19. Blade Runner - Ridley Scott
-20. The Prestige - Christopher Nolan
-21. Lost Highway - David Lynch
-22. The Wind Rise - Hayao Miyazaki
-23. Lawrence of Arabia - David Lean
-24. Your Name - Makoto Shinkai
-25. Call Me By Your Name - Luca Guadagnino
-26. Whiplash - Damien Chazelle
-27. Babylon - Damien Chazelle
-28. Dune - David Lynch
-29. Knight of Cups - Terrence Malick
-30. Mother! - Darren Aronofsky
-31. The Girl with the Dragon Tattoo - David Fincher
-32. The Grand Budapest Hotel - Wes Anderson
-33. No Country for Old Men - Joel and Ethan Coen
-34. My Neighbor Totoro - Hayao Miyazaki
-35. Blue Velvet - David Lynch
-36. In the Mood for Love - Wong Kar-wai
-37. Annihilation - Alex Garland
-38. Leon: The Professional - Luc Besson
-39. Apocalypse Now - Francis Ford Coppola
-40. Silence - Martin Scorsese
-41. Oldboy - Park Chan-wook
-42. 2001: A Space Odyssey - Stanley Kubrick
-43. The World of Tomorrow - Don Hertzfeldt
-44. Gladiator - Ridley Scott
-45. Mad Max: Fury Road - George Miller
-46. Inglourious Basterds - Quentin Tarantino
-47. Thin Red Line - Terrence Malick
-48. Indiana Jones and the Raiders of the Lost Ark - Steven Spielberg
-49. Jurassic Park - Steven Spielberg
-50. The Gentlemen - Guy Ritchie
-
-
-
-
+<ol>
+  <li>Eyes Wide Shut - Stanley Kubrick</li>
+  <li>The Handmaiden - Park Chan-wook</li>
+  <li>Spirited Away - Hayao Miyazaki</li>
+  <li>Gattaca - Andrew Niccol</li>
+  <li>Ghost in the Shell - Mamoru Oshii</li>
+  <li>The Fellowship of the Ring - The Two Towers - The Return of the King - Peter Jackson</li>
+  <li>Blade Runner 2049 - Denis Villeneuve</li>
+  <li>Dune - Denis Villeneuve</li>
+  <li>Tar - Todd Field</li>
+  <li>Persona - Ingmar Bergman</li>
+  <li>Pi - Darren Aronofsky</li>
+  <li>A Portrait of a Lady on Fire - Céline Sciamma</li>
+  <li>Drive My Car - Ryûsuke Hamaguchi</li>
+  <li>Mullholland Drive - David Lynch</li>
+  <li>Paprika - Satoshi Kon</li>
+  <li>The Color of Pomegranates - Sergei Parajanov</li>
+  <li>Eraserhead - David Lynch</li>
+  <li>Ex Machina - Alex Garland</li>
+  <li>Blade Runner - Ridley Scott</li>
+  <li>The Prestige - Christopher Nolan</li>
+  <li>Lost Highway - David Lynch</li>
+  <li>The Wind Rises - Hayao Miyazaki</li>
+  <li>Lawrence of Arabia - David Lean</li>
+  <li>Your Name - Makoto Shinkai</li>
+  <li>Call Me By Your Name - Luca Guadagnino</li>
+  <li>Whiplash - Damien Chazelle</li>
+  <li>Babylon - Damien Chazelle</li>
+  <li>Dune - David Lynch</li>
+  <li>Knight of Cups - Terrence Malick</li>
+  <li>Mother! - Darren Aronofsky</li>
+  <li>The Girl with the Dragon Tattoo - David Fincher</li>
+  <li>The Grand Budapest Hotel - Wes Anderson</li>
+  <li>No Country for Old Men - Joel and Ethan Coen</li>
+  <li>My Neighbor Totoro - Hayao Miyazaki</li>
+  <li>Blue Velvet - David Lynch</li>
+  <li>In the Mood for Love - Wong Kar-wai</li>
+  <li>Annihilation - Alex Garland</li>
+  <li>Leon: The Professional - Luc Besson</li>
+  <li>Apocalypse Now - Francis Ford Coppola</li>
+  <li>Silence - Martin Scorsese</li>
+  <li>Oldboy - Park Chan-wook</li>
+  <li>2001: A Space Odyssey - Stanley Kubrick</li>
+  <li>The World of Tomorrow - Don Hertzfeldt</li>
+  <li>Gladiator - Ridley Scott</li>
+  <li>Mad Max: Fury Road - George Miller</li>
+  <li>Inglourious Basterds - Quentin Tarantino</li>
+  <li>Thin Red Line - Terrence Malick</li>
+  <li>Indiana Jones and the Raiders of the Lost Ark - Steven Spielberg</li>
+  <li>Jurassic Park - Steven Spielberg</li>
+  <li>The Gentlemen - Guy Ritchie</li>
+</ol>

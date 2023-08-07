@@ -2,13 +2,30 @@
 layout: default
 ---
 
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>brian howell</title>
+    <!-- Add the Google Analytics tracking code below this line -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GN0DB3NLLT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-<style>
-    body {
-      background-color: black;
-      color: white;
-    }
-</style>
+      gtag('config', 'G-GN0DB3NLLT');
+    </script>
+    <!-- End of Google Analytics tracking code -->
+    <style>
+      body {
+        background-color: black;
+        color: white;
+      }
+  </style>
+</head>
+<body>
 
 <h1> Personal Library </h1>
 Here a list of books that have had a great influence on the way I see the world at different stages in my life, 
@@ -17,56 +34,65 @@ enough to procure a hard copy, annotate, and re-read over and over.
 <h2>Most influential:</h2>
 
 
-1. Fooled by Randomness - Nassim Taleb
-2. The Worldly Philosophers - Robert Heilbroner
-3. The Dictator's Handbook - Bruce Bueno de Mesquita
-4. Antifragile - Nassim Taleb
-5. The Changing World Order - Ray Dalio
-6. Zero to One - Peter Thiel
-7. A Random Walk Down Wall Street - Burton Malkiel
-8. Papyrus: The Invention of Books in the Ancient World - Irene Vallejo
-9. What I Talk About When I Talk About Running - Haruki Murakami
-10. The Art of Learning - Josh Waitzkin
-11. Homodeus - Yuval Noah Harari
-12. The Black Swan - Nassim Taleb
-13. The Selfish Gene - Richard Dawkins
-14. Skin in the Game - Nassim Taleb
-15. The Best Writing on Mathematics - Mircea Pitici
-16. Einstein - Walter Isaacson
-17. Leonardo Da Vinci - Walter Isaacson
-18. Enlightenment Now - Steven Pinker
-19. Origin Story - David Christian
+<ol>
+  <li>Fooled by Randomness - Nassim Taleb</li>
+  <li>The Worldly Philosophers - Robert Heilbroner</li>
+  <li>The Dictator's Handbook - Bruce Bueno de Mesquita</li>
+  <li>The Idea Factory - Jon Gertner</li>
+  <li>Antifragile - Nassim Taleb</li>
+  <li>The Changing World Order - Ray Dalio</li>
+  <li>Zero to One - Peter Thiel</li>
+  <li>A Random Walk Down Wall Street - Burton Malkiel</li>
+  <li>Papyrus: The Invention of Books in the Ancient World - Irene Vallejo</li>
+  <li>What I Talk About When I Talk About Running - Haruki Murakami</li>
+  <li>The Art of Learning - Josh Waitzkin</li>
+  <li>Homodeus - Yuval Noah Harari</li>
+  <li>The Black Swan - Nassim Taleb</li>
+  <li>The Selfish Gene - Richard Dawkins</li>
+  <li>Skin in the Game - Nassim Taleb</li>
+  <li>The Best Writing on Mathematics - Mircea Pitici</li>
+  <li>Einstein - Walter Isaacson</li>
+  <li>Leonardo Da Vinci - Walter Isaacson</li>
+  <li>Enlightenment Now - Steven Pinker</li>
+  <li>Origin Story - David Christian</li>
+</ol>
 
 <h2>Textbook faves:</h2>
-0. Convex Optimization - Stephen Boyd
-1. Algorithms for Optimization - Mykel Kochenderfer
-2. Decision Making Under Uncertainty - Mykel Kochenderfer
-4. Gaussian Processes for Machine Learning - Carl Edward Rasmussen
-5. The Feynman Lectures on Physics - Richard Feynman
-7. Optimizaiton Models - Giuseppe C. Calafiore and Laurent El Ghaoui
-8. Reinforcement Learning - Richard S. Sutton and Andrew G. Barton
-9. Finite Difference Methods for Ordinary and Partial Differential Equations - Randall J. LeVeque
-10. A Practical Guide to Quantitative Finance Interviews - Xinfeng Zhou
-11. Elements of Chemical Reaction Engineering - H. Scott Fogler
-12. Fluid Mechanics - Cengel and Cimbala
-13. Gardner's Art Through the Ages - Fred S. Kleiner
-14. Physical Chemistry for Engineers - James Patterson
-15. Continuum Mechanics: Concise Theory and Problems - P. Chadwick
-16. Optimal Control Theory - Donald E. Kirk
-17. Robust Optimization - Aharon Ben-Tal and Laurent El Ghaoui
+<ol>
+  <li>Convex Optimization - Stephen Boyd</li>
+  <li>Algorithms for Optimization - Mykel Kochenderfer</li>
+  <li>Decision Making Under Uncertainty - Mykel Kochenderfer</li>
+  <li>Gaussian Processes for Machine Learning - Carl Edward Rasmussen</li>
+  <li>The Feynman Lectures on Physics - Richard Feynman</li>
+  <li>Optimization Models - Giuseppe C. Calafiore and Laurent El Ghaoui</li>
+  <li>Reinforcement Learning - Richard S. Sutton and Andrew G. Barton</li>
+  <li>Finite Difference Methods for Ordinary and Partial Differential Equations - Randall J. LeVeque</li>
+  <li>A Practical Guide to Quantitative Finance Interviews - Xinfeng Zhou</li>
+  <li>Elements of Chemical Reaction Engineering - H. Scott Fogler</li>
+  <li>Fluid Mechanics - Cengel and Cimbala</li>
+  <li>Gardner's Art Through the Ages - Fred S. Kleiner</li>
+  <li>Physical Chemistry for Engineers - James Patterson</li>
+  <li>Continuum Mechanics: Concise Theory and Problems - P. Chadwick</li>
+  <li>Optimal Control Theory - Donald E. Kirk</li>
+  <li>Robust Optimization - Aharon Ben-Tal and Laurent El Ghaoui</li>
+</ol>
+
 
 
 <h2>Fiction faves:</h2>
-0. The Girl with the Dragon Tattoo - Who Played with Fire - Who Kicked the Hornet's Nest - Stieg Larsson
-1. Kafka on the Shore - Haruki Murakami
-2. Jurassic Park - Michael Crichton
-3. The Fellowship of the Ring - The Two Towers - The Return of the King - J.R.R. Tolkien
-4. The Three-Body Problem - Cixin Liu
-5. Killing Commendatore - Haruki Murakami
-6. The Unbearable Lightness of Being - Milan Kundera
-7. The Wind-Up Bird Chronicle - Haruki Murakami
-8. The Hobbit - J.R.R. Tolkien
-9. The Martian - Andy Weir
+<ol>
+  <li>The Girl with the Dragon Tattoo - Who Played with Fire - Who Kicked the Hornet's Nest - Stieg Larsson</li>
+  <li>Kafka on the Shore - Haruki Murakami</li>
+  <li>Jurassic Park - Michael Crichton</li>
+  <li>The Fellowship of the Ring - The Two Towers - The Return of the King - J.R.R. Tolkien</li>
+  <li>The Three-Body Problem - Cixin Liu</li>
+  <li>Killing Commendatore - Haruki Murakami</li>
+  <li>The Unbearable Lightness of Being - Milan Kundera</li>
+  <li>The Wind-Up Bird Chronicle - Haruki Murakami</li>
+  <li>The Hobbit - J.R.R. Tolkien</li>
+  <li>The Martian - Andy Weir</li>
+</ol>
+
 
 
 
