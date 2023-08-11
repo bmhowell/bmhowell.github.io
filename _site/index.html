@@ -3,12 +3,12 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>brian howell | personal webpage</title>
+<title>brian howell | github</title>
 <meta name="generator" content="Jekyll v4.3.2" />
 <meta property="og:title" content="brian howell" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="personal webpage" />
-<meta property="og:description" content="personal webpage" />
+<meta name="description" content="github" />
+<meta property="og:description" content="github" />
 <link rel="canonical" href="http://localhost:4000/" />
 <meta property="og:url" content="http://localhost:4000/" />
 <meta property="og:site_name" content="brian howell" />
@@ -16,7 +16,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="brian howell" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"personal webpage","headline":"brian howell","name":"brian howell","url":"http://localhost:4000/"}</script>
+{"@context":"https://schema.org","@type":"WebSite","description":"github","headline":"brian howell","name":"brian howell","url":"http://localhost:4000/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="brian howell" /></head>
 <body><header class="site-header" role="banner">
@@ -36,7 +36,8 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <!DOCTYPE html>
+        <!-- bundle exec jekyll serve -->
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -53,19 +54,65 @@
       gtag('config', 'G-GN0DB3NLLT');
     </script>
     <!-- End of Google Analytics tracking code -->
-    <style>
-      body {
+  <style>
+    /* ... (your existing styles) ... */
+    body {
         background-color: black;
         color: white;
       }
-  </style>
+    .top-section {
+          text-align: center;
+          margin-top: 20px; /* Adjust the margin as needed */
+      }
+      .profile-image {
+          width: 200px; /* Adjust the size of the image as needed */
+          height: auto;
+          border-radius: 50%; /* Makes the image circular */
+          display: inline-block;
+      }
+     /* links */ 
+    .top-links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px; /* Adjust the margin as needed */
+        }
+        .social-media-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            line-height: 1; /* Set a consistent line height */
+        }
+    .social-media-list li {
+        margin: 0 10px; /* Adjust the margin as needed */
+    }
+    .social-media-list li a {
+        white-space: nowrap; /* Prevent line breaks within links */
+    }
+</style>
 </head>
 <body>
+  <!-- <img src="/images/profile.png" alt="Profile Image" class="profile-image"> -->
+  <div class="top-section">
+    <img src="/images/profile.png" alt="Profile Image" class="profile-image">
+  </div>
+  
+  <!-- Top Links -->
+  <div class="top-links">
+      <ul class="social-media-list">
+        <li><a href="https://scholar.google.com/citations?user=K3CT9XEAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a></li>
+        <li><a href="https://github.com/bmhowell" target="_blank" rel="noopener noreferrer">Github</a></li>
+          <li><a href="pages/Resume_Brian_Howell.pdf"> Current Resume</a></li>
+          <li><a href="https://www.linkedin.com/in/howellbrian" target="_blank" rel="noopener noreferrer">Linkedin</a></li>
+          <li><a href="https://msol.berkeley.edu/team/" target="_blank" rel="noopener noreferrer">UC Berkeley</a></li>
+      </ul>
+  </div>
 
+  
+  <h1>About</h1>
 
-<img src="/images/profile.png" alt="Profile Image" class="profile-image">
-
-<h1>About</h1>
 
 <p>I am currently a PhD candidate in the <a href="https://msol.berkeley.edu">Multi-physics Simulation and Optimization Laboratory</a> 
     at <a href="https://www.berkeley.edu/">UC Berkeley</a> where I specialize in numerical optimization for materials design. My expertise 
@@ -284,11 +331,11 @@
           <li class="p-name">brian howell</li><li><a class="u-email" href="mailto:bhowell@berkeley.edu">bhowell@berkeley.edu</a></li></ul>
       </div>
 
-      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/bmhowell"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">bmhowell</span></a></li><li><a href="https://www.twitter.com/__bhowell__"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">__bhowell__</span></a></li></ul>
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/bmhowell"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">bmhowell</span></a></li></ul>
 </div>
 
       <div class="footer-col footer-col-3">
-        <p>| personal webpage</p>
+        <p>| github</p>
       </div>
     </div>
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+<!-- bundle exec jekyll serve -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,19 +19,65 @@ layout: default
       gtag('config', 'G-GN0DB3NLLT');
     </script>
     <!-- End of Google Analytics tracking code -->
-    <style>
-      body {
+  <style>
+    /* ... (your existing styles) ... */
+    body {
         background-color: black;
         color: white;
       }
-  </style>
+    .top-section {
+          text-align: center;
+          margin-top: 20px; /* Adjust the margin as needed */
+      }
+      .profile-image {
+          width: 200px; /* Adjust the size of the image as needed */
+          height: auto;
+          border-radius: 50%; /* Makes the image circular */
+          display: inline-block;
+      }
+     /* links */ 
+    .top-links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px; /* Adjust the margin as needed */
+        }
+        .social-media-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            line-height: 1; /* Set a consistent line height */
+        }
+    .social-media-list li {
+        margin: 0 10px; /* Adjust the margin as needed */
+    }
+    .social-media-list li a {
+        white-space: nowrap; /* Prevent line breaks within links */
+    }
+</style>
 </head>
 <body>
+  <!-- <img src="/images/profile.png" alt="Profile Image" class="profile-image"> -->
+  <div class="top-section">
+    <img src="/images/profile.png" alt="Profile Image" class="profile-image">
+  </div>
+  
+  <!-- Top Links -->
+  <div class="top-links">
+      <ul class="social-media-list">
+        <li><a href="https://scholar.google.com/citations?user=K3CT9XEAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a></li>
+        <li><a href="https://github.com/bmhowell" target="_blank" rel="noopener noreferrer">Github</a></li>
+          <li><a href="pages/Resume_Brian_Howell.pdf"> Current Resume</a></li>
+          <li><a href="https://www.linkedin.com/in/howellbrian" target="_blank" rel="noopener noreferrer">Linkedin</a></li>
+          <li><a href="https://msol.berkeley.edu/team/" target="_blank" rel="noopener noreferrer">UC Berkeley</a></li>
+      </ul>
+  </div>
 
+  
+  <h1>About</h1>
 
-<img src="/images/profile.png" alt="Profile Image" class="profile-image">
-
-<h1>About</h1>
 
 <p>I am currently a PhD candidate in the <a href="https://msol.berkeley.edu">Multi-physics Simulation and Optimization Laboratory</a> 
     at <a href="https://www.berkeley.edu/">UC Berkeley</a> where I specialize in numerical optimization for materials design. My expertise 
