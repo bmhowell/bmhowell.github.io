@@ -62,11 +62,87 @@
 </head>
 <body>
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Technicals</title>
+      <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      <script src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+      <style>
+          body {
+              background-color: black;
+              color: white;
+              font-family: Arial, sans-serif;
+          }
+  
+          .equation {
+              color: white;
+              font-size: 18px;
+              margin-bottom: 20px;
+          }
+      </style>
+  </head>
+
 <h1>Gas Dynamics for Compressible Flow</h1>
+
+<p style="margin-bottom: 50px;">
+  The Kelvin-Helmholtz instability phenomenon occurs when there is a velocity difference between 
+  two fluids with different densities. This simulation shows the instabily of the interface between
+  the two fluids. 
+</p>
+
+<div style="text-align: center;">
+  <div class="equation">
+    \( 
+      \frac{\partial \rho}{\partial t} + \nabla \cdot 
+                    \begin{bmatrix} 
+                            \rho u \\
+                            \rho v \\
+                    \end{bmatrix} = 0
+    \)
+  </div>
+</div>
+<div style="text-align: center;">
+  <div class="equation">
+    \( 
+      \frac{\partial \rho u}{\partial t} + \nabla \cdot 
+                    \begin{bmatrix} 
+                            \rho u^2 + p \\
+                            \rho u v \\
+                    \end{bmatrix} = 0
+    \)
+  </div>
+</div>
+<div style="text-align: center;">
+  <div class="equation">
+    \( 
+      \frac{\partial \rho v}{\partial t} + \nabla \cdot 
+                    \begin{bmatrix} 
+                            \rho u v \\
+                            \rho v^2 + p \\
+                    \end{bmatrix} = 0
+    \)
+  </div>
+</div>
+<div style="text-align: center;">
+  <div class="equation">
+    \( 
+      \frac{\partial \rho E}{\partial t} + \nabla \cdot 
+                    \begin{bmatrix} 
+                            u(\rho E + p) \\
+                            v(\rho E + p) \\
+                    \end{bmatrix} = 0
+    \)
+  </div>
+</div>
+
 
 
 <figure>
-    <img src="../gifs/helmholtz_fast.gif" alt="Image 1">
+    <img src="../gifs/helmholtz.gif" alt="Image 1">
     <figcaption> Solution for Kelvin Helmholtz instability - Python</figcaption>
 </figure>
 <!-- Add more images and GIFs with captions as needed -->
