@@ -27,13 +27,16 @@ layout: default
 </head>
 <body>
 
+<h1>Currenltly reading:</h1>
+<ol>
+<li> Godel, Escher, Bach: an Eternal Braid - Douglas Hofstadter (more like eternal read)</li>
+<li> 1Q84 - Haruki Murakami</li>
+</ol>
 <h1> Personal Library </h1>
 Here a list of books that have had a great influence on the way I see the world at different stages in my life, 
 enough to procure a hard copy, annotate, and re-read over and over.
 
 <h2>Most influential:</h2>
-
-
 <ol>
   <li>Fooled by Randomness - Nassim Taleb</li>
   <li>The Worldly Philosophers - Robert Heilbroner</li>
@@ -82,22 +85,19 @@ enough to procure a hard copy, annotate, and re-read over and over.
 <h2>Fiction faves:</h2>
 <ol>
   <li>The Girl with the Dragon Tattoo - Who Played with Fire - Who Kicked the Hornet's Nest - Stieg Larsson</li>
-  <li>Kafka on the Shore - Haruki Murakami</li>
-  <li>Jurassic Park - Michael Crichton</li>
-  <li>The Fellowship of the Ring - The Two Towers - The Return of the King - J.R.R. Tolkien</li>
   <li>The Three-Body Problem - Cixin Liu</li>
+  <li>Kafka on the Shore - Haruki Murakami</li>
+  <li>The Fellowship of the Ring - The Two Towers - The Return of the King - J.R.R. Tolkien</li>
+  <li>Jurassic Park - Michael Crichton</li>
   <li>Killing Commendatore - Haruki Murakami</li>
   <li>The Unbearable Lightness of Being - Milan Kundera</li>
   <li>The Wind-Up Bird Chronicle - Haruki Murakami</li>
   <li>The Hobbit - J.R.R. Tolkien</li>
   <li>The Martian - Andy Weir</li>
+  <li>Pachinko - Min Jin Lee</li>
 </ol>
 
 
 
 
-<h2>Priority reads:</h2>
-0. Godel, Escher, Bach - Douglas Hofstadter
-1. 1Q84 - Haruki Murakami
-2. Pachinko - Min Jin Lee
-3. Outlive - Peter Attia
+
