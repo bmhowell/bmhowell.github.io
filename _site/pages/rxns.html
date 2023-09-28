@@ -62,21 +62,115 @@
 </head>
 <body>
 
-<h2>Reaction Kinetics for Advanced Materials</h2>
-My doctoral work focuses on the development of dual-curing resins for advanced manufacturing. The 
-first stage of curing is a UV-curing step that allows for the printing of complex structures that
-would otherwise collapse under their own weight. This stage is facilitated by the activation of 
-photo-initiators that chain react with acrylate monomers. Although these reactions are occur in
-stages, each is inter-dependent on the other resulting in a highly-coupled multi-physics problem.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Technicals</title>
+      <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      <script src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+      <style>
+          body {
+              background-color: black;
+              color: white;
+              font-family: Arial, sans-serif;
+          }
+  
+          .equation {
+              color: white;
+              font-size: 18px;
+              margin-bottom: 20px;
+          }
+      </style>
+  </head>
 
-The simulations from my doctoral work focus on tracking reaction, diffusion, and heat transfer in
-composite material systems which involves solving a system of partial differential equations. 
-<figure>
+<h1>Reaction Kinetics for Advanced Materials</h1>
+<p style="margin-bottom: 25px;"></p>
+For my doctoral work, I worked on developing physics-based and machine learning models for
+reaction kinetics in advanced materials. The physics-based models were developed in C++ using
+voxel-computing methods, Gaussian Processes, and non-convex optimization methods. 
+
+The overall simulation solves a system of partial differential equations for reaction, 
+diffusion, and heat transfer: 
+</p>
+
+<div style="text-align: center; margin-top: 50px;">
+  <div class="equation">
+    \( 
+      \frac{\partial [PI]}{\partial t} =  -\frac{\phi}{2} I_{abs}
+    \)
+  </div>
+</div>
+<div style="text-align: center; margin-top: 10px;">
+  <div class="equation">
+    \( 
+      \frac{\partial [PI\cdot]}{\partial t} = 
+                    \nabla_x \cdot \big(\kappa \nabla_x [PI\cdot]\big) + \phi I_{abs} - k_i [PI\cdot][M]
+    \)
+  </div>
+</div>
+<div style="text-align: center; margin-top: 10px;">
+  <div class="equation">
+    \( 
+      \frac{\partial [M_n \cdot]}{\partial t} =
+                    \nabla \cdot \big(\kappa_{M_n \cdot} \nabla [M_n \cdot]\big) + k_i [PI\cdot][M] - k_t [M_n \cdot]^2
+    \)
+  </div>
+</div>
+<div style="text-align: center; margin-top: 10px;">
+  <div class="equation">
+    \( 
+      \frac{\partial [M]}{\partial t} =
+                    \nabla_x \cdot \big(\kappa_M \nabla_x [M]\big) - k_i [PI\cdot][M] - k_p[M][M_n \cdot]
+    \)
+  </div>
+</div>
+<div style="text-align: center; margin-top: 10px; margin-bottom: 50px">
+  <div class="equation">
+    \( 
+      \rho C \frac{\partial \theta}{\partial t} =
+                      \nabla_x \cdot \big(\kappa \nabla_x \theta\big) <br>
+                    + \big(k_i [PI\cdot][M] + k_p[M][M_n \cdot] + k_t [M_n \cdot]^2\big) \Delta H <br>
+                    + \big(\epsilon_{PI} [PI]I_0 e^{-\epsilon_{PI}[PI]z} \ || \ \epsilon_{NaCl} I_0 e^{-\epsilon_{NaCl}Z} \big)
+    \)
+  </div>
+</div>
+
+<div class="gallery">
+  <figure>
+    <img src="../gifs/cPI_100fps.gif" alt="Image 1" loop>
+    <figcaption>Rxn kinetics for photo initiator</figcaption>
+  </figure>
+  <figure>
+    <img src="../gifs/cPIdot_100fps.gif" alt="Image 1" loop>
+    <figcaption>Rxn kinetics for photo radical</figcaption>
+  </figure>
+  <figure>
+      <img src="../gifs/cMdot_100fps.gif" alt="Image 1">
+      <figcaption>Rxn kinetics for primary radical</figcaption>
+  </figure>
+  <figure>
+    <img src="../gifs/cM_100fps.gif" alt="Image 1" loop>
+    <figcaption>Rxn kinetics for monomer</figcaption>
+  </figure>
+  <figure>
+      <img src="../gifs/theta_full_100fps.gif" alt="Image 1">
+      <figcaption> Thermal profile of composite</figcaption>
+  </figure>
+  <!-- Add more images and GIFs with captions as needed -->
+  </div>
+
+<!-- <figure>
     <img src="../gifs/cMdot_100fps.gif" alt="Image 1">
     <figcaption> Reaction kinetics for primary radical of a UV-curable resin - C++</figcaption>
 </figure>
+<figure>
+  <img src="../gifs/theta_full_100fps.gif" alt="Image 1">
+  <figcaption> Thermal profile UV-curable resin - C++</figcaption>
+</figure>
 <!-- Add more images and GIFs with captions as needed -->
-</div>
+</div> -->
 
 
 
