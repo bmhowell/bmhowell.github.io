@@ -89,7 +89,8 @@
 <p style="margin-bottom: 25px;"></p>
 For my doctoral work, I worked on developing physics-based and machine learning models for
 reaction kinetics in advanced materials. The physics-based models were developed in C++ using
-voxel-computing methods, Gaussian Processes, and non-convex optimization methods. 
+voxel-computing methods, Gaussian Processes, and non-convex optimization methods 
+(see <a href="https://github.com/bmhowell/ugap_simulation"> Github code</a>). 
 
 The overall simulation solves a system of partial differential equations for reaction, 
 diffusion, and heat transfer: 
@@ -132,10 +133,15 @@ diffusion, and heat transfer:
       \rho C \frac{\partial \theta}{\partial t} =
                       \nabla_x \cdot \big(\kappa \nabla_x \theta\big) <br>
                     + \big(k_i [PI\cdot][M] + k_p[M][M_n \cdot] + k_t [M_n \cdot]^2\big) \Delta H <br>
-                    + \big(\epsilon_{PI} [PI]I_0 e^{-\epsilon_{PI}[PI]z} \ || \ \epsilon_{NaCl} I_0 e^{-\epsilon_{NaCl}Z} \big)
+                    + \epsilon I_0 e^{-\epsilon z}.
     \)
   </div>
 </div>
+
+
+<p style="margin-bottom: 25px;"></p>
+I write all my own in house solvers and animations. The reaction and thermal profiles are shown below. 
+</p>
 
 <div class="gallery">
   <figure>
@@ -161,16 +167,7 @@ diffusion, and heat transfer:
   <!-- Add more images and GIFs with captions as needed -->
   </div>
 
-<!-- <figure>
-    <img src="../gifs/cMdot_100fps.gif" alt="Image 1">
-    <figcaption> Reaction kinetics for primary radical of a UV-curable resin - C++</figcaption>
-</figure>
-<figure>
-  <img src="../gifs/theta_full_100fps.gif" alt="Image 1">
-  <figcaption> Thermal profile UV-curable resin - C++</figcaption>
-</figure>
-<!-- Add more images and GIFs with captions as needed -->
-</div> -->
+
 
 
 
