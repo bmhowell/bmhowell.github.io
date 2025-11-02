@@ -1,7 +1,10 @@
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
+_site/
 vendor
 *.DS_Store
 pages/.DS_Store
 background.md
+_includes/
+_layouts/

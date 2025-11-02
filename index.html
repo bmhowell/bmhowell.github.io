@@ -1,281 +1,125 @@
 ---
-layout: default
+layout: home
+title: Brian Matthew Howell
 ---
-<!-- bundle exec jekyll serve -->
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brian Matthew Howell</title>
-    <!-- Add the Google Analytics tracking code below this line -->
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GN0DB3NLLT"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
 
-      gtag('config', 'G-GN0DB3NLLT');
-    </script>
-    <!-- End of Google Analytics tracking code -->
-  <style>
-    /* ... (your existing styles) ... */
-    body {
-        background-color: black;
-        color: white;
-      }
-    .top-section {
-          text-align: center;
-          margin-top: 20px; /* Adjust the margin as needed */
-      }
-      .profile-image {
-          width: 200px; /* Adjust the size of the image as needed */
-          height: auto;
-          border-radius: 50%; /* Makes the image circular */
-          display: inline-block;
-      }
-     /* links */ 
-    .top-links {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-top: 20px; /* Adjust the margin as needed */
-        }
-        .social-media-list {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            align-items: center;
-            line-height: 1; /* Set a consistent line height */
-        }
-    .social-media-list li {
-        margin: 0 10px; /* Adjust the margin as needed */
-    }
-    .social-media-list li a {
-        white-space: nowrap; /* Prevent line breaks within links */
-    }
-</style>
-</head>
-<body>
-  <!-- <img src="/images/profile.png" alt="Profile Image" class="profile-image"> -->
-  <div class="top-section">
-    <img src="/images/profile.png" alt="Profile Image" class="profile-image">
+<section class="hero" aria-labelledby="hero-heading">
+  <div class="hero__media">
+    <img src="/images/profile.png" alt="Portrait of Brian Howell" class="hero__image">
   </div>
-  
-  <!-- Top Links -->
-  <div class="top-links">
-      <ul class="social-media-list">
-        <li><a href="https://scholar.google.com/citations?user=K3CT9XEAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a></li>
+
+  <div class="hero__content">
+    <h1 id="hero-heading">Brian Matthew Howell</h1>
+    <nav class="hero__links" aria-label="Primary">
+      <ul class="social-links">
+        <li><a href="https://scholar.google.com/citations?user=K3CT9XEAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a></li>
         <li><a href="https://github.com/bmhowell" target="_blank" rel="noopener noreferrer">Github</a></li>
-          <li><a href="pages/Resume_Brian_Howell.pdf"> Current Resume</a></li>
-          <li><a href="https://www.linkedin.com/in/howellbrian" target="_blank" rel="noopener noreferrer">Linkedin</a></li>
-          <li><a href="https://msol.berkeley.edu/alumni/" target="_blank" rel="noopener noreferrer">UC Berkeley</a></li>
+        <li><a href="pages/Resume_Brian_Howell.pdf">Current Resume</a></li>
+        <li><a href="https://www.linkedin.com/in/howellbrian" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        <li><a href="https://msol.berkeley.edu/alumni/" target="_blank" rel="noopener noreferrer">UC Berkeley</a></li>
       </ul>
+    </nav>
   </div>
+</section>
 
-  
-  <h1>About</h1>
+<section class="intro" aria-labelledby="about-heading">
+  <h2 id="about-heading">About</h2>
+  <p>I am a computational engineer focused on large-scale numerical optimization and simulation, with applications spanning physics, machine learning, and design automation. I have built high-performance computing systems and applied optimization frameworks for industrial-scale problems at Apple, Google X, and Lawrence Livermore National Laboratory.</p>
+  <p>My Ph.D. from UC Berkeley’s <a href="https://msol.berkeley.edu">Multi-physics Simulation and Optimization Laboratory</a> centered on stochastic and gradient-based optimization for non-convex numerical simulation. Earlier, I earned my B.Sc. in Chemical Engineering from Brigham Young University, concentrating on control theory and optimization.</p>
+  <p>I am now focused on deepening my work at the intersection of technical systems, product, and organizational design—building platforms and frameworks that connect advanced computation with broader business and technological impact.</p>
+  <p>Here are some snapshots of my public works.</p>
+</section>
 
-
-<p> 
-  I am a computational engineer focused on large-scale numerical optimization and simulation, with applications spanning physics, machine learning, and design automation. I have built high-performance computing systems and applied optimization frameworks for industrial-scale problems at Apple, Google X, and Lawrence Livermore National Laboratory.
-<p> 
-<p>   
-  My Ph.D. from UC Berkeley’s <a href="https://msol.berkeley.edu">Multi-physics Simulation and Optimization Laboratory</a> centered on stochastic and gradient-based optimization for non-convex numerical simulation. Earlier, I earned my B.Sc. in Chemical Engineering from Brigham Young University, concentrating on control theory and optimization.
-<p> 
-  I am now focused on deepening my work at the intersection of technical systems, product, and organizational design—building platforms and frameworks that connect advanced computation with broader business and technological impact.
-<p>   
-</p> 
-
-<p> 
-  Here are some snapshots of my public works:
-<p>   
-    
-
-<!-- <h1>Snapshot of some of my musings</h1> -->
-
-    <h1>Engineering Bits</h1>
-    <div class="gallery">
-      <figure>
-          <img src="gifs/cMdot_100fps.gif" alt="Image 1">
-          <figcaption> 
-            <a href="pages/rxns.html">
-              Voxel Computing
-            </a>
-          </figcaption>
-      </figure>
-      <figure>
-          <img src="gifs/3bp_fast.gif" alt="Image 1">
-          <figcaption>
-            <a href="pages/3bp.html">
-              3-Body Problem
-            </a>
-          </figcaption>
-      </figure>
-      <figure>
-          <img src="gifs/drone.gif" alt="Image 1" loop>
-          <figcaption>
-            <a href="pages/drone.html">
-              Game of Drones
-            </a>
-          </figcaption>
-      </figure>
-      <figure>
-          <img src="gifs/cough.gif" alt="Image 1" loop>
-          <figcaption>
-            <a href="pages/cough.html">
-              Infectious Disease 
-            </a>
-          </figcaption>
-      </figure>
-      <figure>
-          <img src="gifs/helmholtz_small.gif" alt="Image 1">
-          <figcaption>
-            <a href="pages/gas.html">
-              Compressible Gas Dynamics
-            </a>
-          </figcaption>
-      </figure>
-      <figure>
-          <img src="gifs/blackopt.gif" alt="Image 1">
-          <figcaption>
-            <a href="pages/bot.html">
-              Optimization
-            </a>
-          </figcaption>
-      </figure>
-      <figure>
-          <img src="gifs/anim_langford.gif" alt="Image 2" loop>
-          <figcaption>
-            <a href="pages/attractors.html">
-              Strange Attractors
-            </a>
-          </figcaption>
-      </figure>
-      <figure>
-        <img src="gifs/ray_trace.gif" alt="Image 2" loop>
-        <figcaption>
-          <a href="pages/lidar.html">
-            Lidar
-          </a>
-        </figcaption>
-    </figure>
-    <figure>
-        <img src="gifs/laser.gif" alt="Image 2" loop>
-        <figcaption>
-          <a href="pages/laser.html">
-            Laser Sintering
-          </a>
-        </figcaption>
-    </figure>
-      <!-- Add more images and GIFs with captions as needed -->
-      </div>
-
-
-    
-
-  <h1>Engineering Atoms</h1>
+<section class="showcase" aria-labelledby="engineering-bits-heading">
+  <h2 id="engineering-bits-heading">Engineering Bits</h2>
   <div class="gallery">
-    <figure>
-        <img src="images/helix_LLNL.png" alt="Image 1">
-        <figcaption>
-          <a href="pages/printing.html">
-            3D Printing
-          </a>
-        </figcaption>
+    <figure class="gallery__item">
+      <img src="gifs/cMdot_100fps.gif" alt="Voxel computing animation">
+      <figcaption><a href="pages/rxns.html">Voxel Computing</a></figcaption>
     </figure>
-    <figure>
-        <img src="snapshots/boom.png" alt="Image 1">
-        <figcaption> 
-          <a href="pages/propellent.html">
-            Propellent Formulation
-          </a>
-        </figcaption>
+    <figure class="gallery__item">
+      <img src="gifs/3bp_fast.gif" alt="Simulation of the three-body problem">
+      <figcaption><a href="pages/3bp.html">3-Body Problem</a></figcaption>
     </figure>
-    <figure>
-        <img src="images/caspase.png" alt="Image 1" loop>
-        <figcaption>
-          <a href="pages/immunofluorescence.html">
-            Immunofluorescence
-          </a>
-        </figcaption>
+    <figure class="gallery__item">
+      <img src="gifs/drone.gif" alt="Drone simulation">
+      <figcaption><a href="pages/drone.html">Game of Drones</a></figcaption>
     </figure>
-    <!-- Add more images and GIFs with captions as needed -->
-    </div>
+    <figure class="gallery__item">
+      <img src="gifs/cough.gif" alt="Visualization of infectious disease spread">
+      <figcaption><a href="pages/cough.html">Infectious Disease</a></figcaption>
+    </figure>
+    <figure class="gallery__item">
+      <img src="gifs/helmholtz_small.gif" alt="Visualization of compressible gas dynamics">
+      <figcaption><a href="pages/gas.html">Compressible Gas Dynamics</a></figcaption>
+    </figure>
+    <figure class="gallery__item">
+      <img src="gifs/blackopt.gif" alt="Optimization visual">
+      <figcaption><a href="pages/bot.html">Optimization</a></figcaption>
+    </figure>
+    <figure class="gallery__item">
+      <img src="gifs/anim_langford.gif" alt="Strange attractors animation">
+      <figcaption><a href="pages/attractors.html">Strange Attractors</a></figcaption>
+    </figure>
+    <figure class="gallery__item">
+      <img src="gifs/ray_trace.gif" alt="Lidar simulation">
+      <figcaption><a href="pages/lidar.html">Lidar</a></figcaption>
+    </figure>
+    <figure class="gallery__item">
+      <img src="gifs/laser.gif" alt="Laser sintering process">
+      <figcaption><a href="pages/laser.html">Laser Sintering</a></figcaption>
+    </figure>
+  </div>
+</section>
 
+<section class="showcase" aria-labelledby="engineering-atoms-heading">
+  <h2 id="engineering-atoms-heading">Engineering Atoms</h2>
+  <div class="gallery">
+    <figure class="gallery__item">
+      <img src="images/helix_LLNL.png" alt="3D printing experiment">
+      <figcaption><a href="pages/printing.html">3D Printing</a></figcaption>
+    </figure>
+    <figure class="gallery__item">
+      <img src="snapshots/boom.png" alt="Propellent formulation imagery">
+      <figcaption><a href="pages/propellent.html">Propellent Formulation</a></figcaption>
+    </figure>
+    <figure class="gallery__item">
+      <img src="images/caspase.png" alt="Immunofluorescence visualization">
+      <figcaption><a href="pages/immunofluorescence.html">Immunofluorescence</a></figcaption>
+    </figure>
+  </div>
+</section>
 
-    <h1>Personal</h1>
+<section class="personal" aria-labelledby="personal-heading">
+  <h2 id="personal-heading">Personal</h2>
+  <p>In personal life I have a variety of interests including running very long distances, foreign film, olives, olive oil, discrepancies between Talebian philosophy and Talebian tweets, Schumpeterian and Thielian economics, Jewish atheists, 1980&apos;s Japan, 1980&apos;s New York, 2000&apos;s Silicon Valley, Indian food in England, Indian food in India, desert wealth, and sliding the word “optimisation” into conversations.</p>
+</section>
 
-    <p> In personal life I have a variety of interests including running very long distances, foreign film, olives, olive oil, discrepancies between 
-      Talebian philosophy and Talebian tweets, Schumpeterian and Thielian economics, Jewish atheists, 1980's Japan, 1980's New York, 2000's Silicon Valley,
-      Indian food in England, Indian food in India, desert wealth, and sliding the word 'optimisation' into conversations. 
-
-    <!-- <nav>
-      <ul>
-        <li>
-          <a href="pages/travel.html">
-            <img src="images/taj.png" alt="travel Icon" width="50" height="50">
-            Travels
-          </a>
-        </li>
-        <li>
-          <a href="https://www.goodreads.com/user/show/44816370-brian-howell">
-            <img src="images/books.png" alt="travel Icon" width="50" height="50">
-            Books
-          </a>
-        </li>
-        <li>
-          <a href="https://letterboxd.com/bhopro/">
-            <img src="images/film.png" alt="travel Icon" width="50" height="50">
-            Cinema
-          </a>
-        </li>
-      </ul>
-    </nav> -->
-
-  <h1>Graduate School Notes</h1>
-  <p>I am currently compiling and transcribing all of my notes from graduate school into a numerical computing
-  handbook. This is far from complete, but I do use this link to refer to equations and derivations. 
-  </p>
-
-  <nav>
+<section class="handbook" aria-labelledby="graduate-notes-heading">
+  <h2 id="graduate-notes-heading">Graduate School Notes</h2>
+  <p>I am currently compiling and transcribing all of my notes from graduate school into a numerical computing handbook. This is far from complete, but I refer to it frequently for equations and derivations.</p>
+  <nav aria-label="Graduate school resources">
     <ul>
-      <li>
-        <a href="pages/numerical_computing.pdf">
-          The Numerical Computing Handbook
-        </a>
-      </li>
+      <li><a href="pages/numerical_computing.pdf">The Numerical Computing Handbook</a></li>
     </ul>
   </nav>
-
-  <p>You can find my dissertation at: 
-  </p>
-
-  <nav>
+  <p>You can find my dissertation at:</p>
+  <nav aria-label="Dissertation">
     <ul>
-      <li>
-        <a href="https://escholarship.org/uc/item/8p61g06t">
-          Simulation-Informed Optimization and Machine Learning for Advanced Manufacturing
-        </a>
-      </li>
+      <li><a href="https://escholarship.org/uc/item/8p61g06t">Simulation-Informed Optimization and Machine Learning for Advanced Manufacturing</a></li>
     </ul>
   </nav>
+</section>
 
-  <h1>Various Links</h1>
-  <ul class="social-media-list">
-    <li><a href="https://scholar.google.com/citations?user=K3CT9XEAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a></li>
+<section class="links" aria-labelledby="various-links-heading">
+  <h2 id="various-links-heading">Various Links</h2>
+  <ul class="social-links">
+    <li><a href="https://scholar.google.com/citations?user=K3CT9XEAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a></li>
     <li><a href="https://github.com/bmhowell" target="_blank" rel="noopener noreferrer">Github</a></li>
-    <li><a href="https://www.linkedin.com/in/howellbrian" target="_blank" rel="noopener noreferrer">Linkedin</a></li>
+    <li><a href="https://www.linkedin.com/in/howellbrian" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
     <li><a href="https://msol.berkeley.edu/team/" target="_blank" rel="noopener noreferrer">UC Berkeley</a></li>
-    <li><a href="https://www.strava.com/athletes/25850452" target="_blank" rel="nooreferrer">Strava</a></li>
-    <li><a href="pages/Resume_Brian_Howell.pdf"> Current Resume</a></li>
-    <li><a href="pages/Resume_Brian_Howell_light.pdf"> Current Resume (light)</a></li>
+    <li><a href="https://www.strava.com/athletes/25850452" target="_blank" rel="noreferrer">Strava</a></li>
+    <li><a href="pages/Resume_Brian_Howell.pdf">Current Resume</a></li>
+    <li><a href="pages/Resume_Brian_Howell_light.pdf">Current Resume (light)</a></li>
   </ul>
-  
-
-
-
-</body>
-</html>
+</section>
