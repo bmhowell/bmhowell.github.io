@@ -11,15 +11,9 @@
   --color-text-muted: #90949d;
   --color-accent: #d4af37;
   --color-accent-hover: #f0d070;
-  --font-heading: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  // --font-body: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  // --font-accent: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  // --font-heading: "Roboto Mono", "Fira Mono", monospace;
+  --font-heading: "Roboto Mono", "Fira Mono", monospace;
   --font-body: "Roboto Mono", "Fira Mono", monospace;
   --font-accent: "Roboto Mono", "Fira Mono", monospace;
-  // --font-heading: "Roboto Mono", "Fira Mono", monospace;
-  // --font-body: "Roboto Mono", "Fira Mono", monospace;
-  // --font-accent: "Roboto Mono", "Fira Mono", monospace;
 }
 
 body {
@@ -190,4 +184,78 @@ a:focus {
 
 .links .social-links {
   gap: 0.5rem 1rem;
+}
+
+.links .social-links a {
+  font-family: var(--font-accent);
+  font-size: 0.95rem;
+}
+
+blockquote {
+  border-left: 3px solid var(--color-accent);
+  padding-left: 1rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+.blog-index {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: calc(var(--spacing-unit)) 0 calc(var(--spacing-unit) * 2);
+}
+
+.blog-index__header {
+  text-align: center;
+  margin-bottom: calc(var(--spacing-unit) * 1.5);
+}
+
+.blog-index__description {
+  max-width: 620px;
+  margin: 0.75rem auto 0;
+}
+
+.post-list {
+  display: grid;
+  gap: calc(var(--spacing-unit) * 1.5);
+}
+
+.post-card {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: calc(var(--spacing-unit) * 1.2);
+  background-color: rgba(17, 17, 17, 0.8);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.35);
+}
+
+.post-card__title {
+  margin: 0;
+}
+
+.post-card__meta {
+  font-family: var(--font-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  margin: 0.5rem 0 1rem;
+}
+
+.post-card__excerpt {
+  margin: 0 0 1rem;
+  color: var(--color-text-secondary);
+}
+
+.post-card__cta a {
+  font-family: var(--font-accent);
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: calc(var(--spacing-unit) * 2);
+}
+
+.pagination__link {
+  font-family: var(--font-accent);
+  color: var(--color-accent);
 }

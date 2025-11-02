@@ -33,6 +33,12 @@ github_username:  bmhowell
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+
+# Blog settings
+permalink: /blog/:year/:month/:day/:title/
+paginate: 5
+paginate_path: "/blog/page:num/"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
