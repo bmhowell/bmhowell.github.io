@@ -1,0 +1,96 @@
+---
+---
+
+@import "minima";
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+  p {
+    font-family: "courier", monospace;
+  }
+
+  body {
+    font-family: "courier", monospace;
+    color: #111;
+    background-color: #fdfdfd;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .gallery img, .gallery video {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 5px;
+  }
+
+  .gallery figure {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .gallery figcaption {
+    font-style: italic;
+    color: #888;
+  }
+
+
+  nav ul li a img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+
+  figure {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  
+  figure > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  figcaption {
+    font-size: 14px;
+    text-align: center;
+  }
+  
+
+  body a {
+    color: #FF00FF; // Replace with your desired color value
+  }
+
+  // Add margin or padding to the figure elements
+  figure {
+    margin-top: 100px; // You can adjust this value as needed
+  }
+
+  // Ensure all link states are styled
+  a:link, a:visited, a:hover, a:active {
+    color: #FF00FF; // Replace with your desired color value
+  }
+
+//   a {
+//     color: #FF00FF; // Replace with your desired color value
+//   }
